@@ -1,0 +1,13 @@
+{
+  "name": "explosive-biter-optimizations",
+  "version": "0.1.0",
+  "title": "Explosive Biter Optimizations",
+  "author": "AbuDhabi",
+  "homepage": "https://github.com/AbuDhabi/explosive-biter-optimizations",
+  "factorio_version": "2.0",
+  "dependencies": [
+    "base >= 2.0.0",
+    "Explosive_biters >= 2.0.0"
+  ],
+  "description": "Performance patches for the Explosive Biters mod. Reduces UPS impact from explosions, fire spread, and death effects while keeping the mod playable on weaker hardware.\n\nSee the full description on GitHub: https://github.com/AbuDhabi/explosive-biter-optimizations"
+}
