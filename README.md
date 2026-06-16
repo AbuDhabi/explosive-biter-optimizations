@@ -39,14 +39,22 @@ Settings will appear under **Settings → Startup** once the optimization passes
 
 ## What gets optimized
 
-Planned areas of work:
+### Death explosions (implemented)
 
-- **Death explosions** — smaller radius, fewer secondary effects, or simplified prototypes
-- **Fire** — shorter lifetime, lower spread rate, or capped concurrent fires per area
+Explosive Biters uses `small-atomic-explosion` when nests, leviathan-tier units, mother worms, and bosses die. That prototype reuses the atomic bomb shockwave: hundreds of projectiles, cluster nukes, smouldering smoke sources, and scorchmarks.
+
+This mod replaces `small-atomic-explosion` in `data-final-fixes.lua` (after Explosive Biters loads) with a lightweight blast that keeps the original look:
+
+- **Visuals:** nuke explosion animation and flash (same as unmodded Explosive Biters)
+- **Crater:** `big-scorchmark` (same as the original nest death effect)
+- **Damage:** 14-tile outer blast with falloff (400 × damage scaler) plus a 4-tile inner vaporize zone (150 × damage scaler), approximating the atomic wave / ground-zero profile without spawning shockwave projectiles
+
+Fire spread and extra particle entities can be toggled off in startup settings.
+
+### Future work
+
 - **Projectiles and spit** — reduced particle trails where safe
 - **Runtime scripts** — avoid redundant work in control-stage handlers where Explosive Biters allows it
-
-Gameplay balance is intentionally conservative: enemies should still feel explosive, just less visually and computationally noisy.
 
 ## Compatibility
 
