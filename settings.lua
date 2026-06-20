@@ -29,5 +29,12 @@ data:extend({
     setting_type = "startup",
     default_value = true,
     order = "d"
+  },
+  {
+    type = "bool-setting",
+    name = "ebo-downscale-textures",
+    setting_type = "startup",
+    default_value = true,
+    order = "e"
   }
 })

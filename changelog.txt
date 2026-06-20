@@ -1,4 +1,12 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.2.0
+Date: 2026-06-16
+  Info:
+    - Mark Explosive Biters sprites for half-res VRAM loading (allow_forced_downscale)
+    - Startup setting to toggle texture downscaling
+    - Add mod name and description locale entries
+    - Refactor data-final-fixes into ebo/explosions.lua and ebo/graphics.lua
+---------------------------------------------------------------------------------------------------
 Version: 0.1.0
 Date: 2026-06-16
   Info:
