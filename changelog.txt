@@ -1,4 +1,11 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.3.0
+Date: 2026-06-16
+  Info:
+    - Orphan explosive biters adopt the nearest living nest when their home nest is destroyed
+    - Release from dead spawners and use engine adoption instead of mass pathfinding (fixes post-combat unit lag)
+    - Batched redirect queue and startup setting to toggle orphan handling
+---------------------------------------------------------------------------------------------------
 Version: 0.2.0
 Date: 2026-06-16
   Info:

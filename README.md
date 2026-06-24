@@ -6,7 +6,7 @@ Makes [Explosive Biters](https://mods.factorio.com/mod/Explosive_biters) cheaper
 
 **Requires:** Factorio 2.0, [Explosive Biters](https://mods.factorio.com/mod/Explosive_biters)
 
-Startup settings tune explosions, fire, particles, and VRAM (half-res EB sprites).
+Startup settings tune explosions, fire, particles, VRAM, and orphan biter handling.
 
 > This project is vibe-coded.
 
