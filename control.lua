@@ -1,2 +1,1 @@
--- Runtime optimizations for Explosive Biters, if prototype tweaks alone are not enough.
--- Death explosion work is handled in data-final-fixes.lua.
+require("ebo.orphan_redirect")

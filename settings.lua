@@ -36,5 +36,12 @@ data:extend({
     setting_type = "startup",
     default_value = true,
     order = "e"
+  },
+  {
+    type = "bool-setting",
+    name = "ebo-redirect-orphaned-biters",
+    setting_type = "startup",
+    default_value = true,
+    order = "f"
   }
 })
