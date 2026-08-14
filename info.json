@@ -4,10 +4,10 @@
   "title": "Explosive Biter Optimizations",
   "author": "AbuDhabi",
   "homepage": "https://github.com/AbuDhabi/explosive-biter-optimizations",
-  "factorio_version": "2.0",
+  "factorio_version": "2.1",
   "dependencies": [
-    "base >= 2.0.0",
-    "Explosive_biters >= 2.0.0"
+    "base >= 2.1.0",
+    "Explosive_biters >= 2.4.0"
   ],
   "description": "Performance patches for Explosive Biters: cheaper nest/leviathan death explosions, half-res sprite loading, and calm orphan biter handling when nests are destroyed."
 }
